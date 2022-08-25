@@ -1,13 +1,13 @@
-package com.luan.ofertasregistros;
+package com.luan.registrospromocoes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OfertasregistrosApplication {
+public class RegistrospromocoesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OfertasregistrosApplication.class, args);
+		SpringApplication.run(RegistrospromocoesApplication.class, args);
 	}
 
 }

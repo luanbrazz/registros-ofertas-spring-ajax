@@ -1,10 +1,10 @@
-package com.luan.ofertasregistros;
+package com.luan.registrospromocoes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OfertasregistrosApplicationTests {
+class RegistrospromocoesApplicationTests {
 
 	@Test
 	void contextLoads() {
