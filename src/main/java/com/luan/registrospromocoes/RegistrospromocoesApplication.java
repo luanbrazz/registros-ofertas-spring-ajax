@@ -20,10 +20,7 @@ public class RegistrospromocoesApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		SocialMetaTag og = service.getOpenGraphByUrl("https://www.pichau.com.br/monitor-profissional-pichau-perseus-pro-27-pol-ips-qhd-100-srgb-10bits-delta-2-rec-709-base-ajustavel-hdmi-dp-pc-prs27-mpp01");
-		System.out.println(og.toString());
-
-		SocialMetaTag twitter = service.getTwitterCardByUrl("https://www.pichau.com.br/monitor-profissional-pichau-perseus-pro-27-pol-ips-qhd-100-srgb-10bits-delta-2-rec-709-base-ajustavel-hdmi-dp-pc-prs27-mpp01");
-		System.out.println(twitter.toString());
+		SocialMetaTag tag = service.getSocialMetaTagByUrl("https://www.pichau.com.br/monitor-profissional-pichau-perseus-pro-27-pol-ips-qhd-100-srgb-10bits-delta-2-rec-709-base-ajustavel-hdmi-dp-pc-prs27-mpp01");
+		System.out.println(tag.toString());
 	}
 }
